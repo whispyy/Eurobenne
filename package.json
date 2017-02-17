@@ -1,7 +1,7 @@
 {
-  "name": "tp6-frameworkjs",
+  "name": "Eurobenne",
   "version": "1.0.0",
-  "description": "TP6",
+  "description": "Eurobenne's website",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

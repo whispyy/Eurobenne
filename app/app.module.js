@@ -5,6 +5,7 @@
     .module('fjs', [
         'fjs.core',
         'fjs.home',
+        'fjs.contact',
         'fjs.components'
     ]);
     
