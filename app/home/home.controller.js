@@ -8,22 +8,23 @@
     function homeController($filter) {
         var vm = this;
         
-        vm.message = "Hello World !!";
-        vm.types = [
+        vm.icons = [
             {
-                name: 'INFO',
-                style: {'color':'blue'}
+                title: 'Production',
+                text: 'Une production de 1000 Bennes par an en 2x8 et jusqu\'à 1500 Bennes en 3x8.',
+                img: 'fa fa-cogs fa-5x'
             },
             {
-                name: 'DANGER',
-                style: {'color':'red'}
+                title: 'Atelier',
+                text: 'Un atelier de 4500m² avec une cabine de peinture de 100 m² aux normes de sécurités.',
+                img: 'fa fa-industry fa-5x'
             },
             {
-                name: 'SUCCES',
-                style: {'color':'green'}
+                title: 'Livraison',
+                text: 'La livraison et la mise en place par nos soins avec notre camion Ampliroll, jusque chez vos clients.',
+                img: 'fa fa-truck fa-5x'
             }
         ];
-        vm.selectedType = vm.types[0];
         
     }
     
