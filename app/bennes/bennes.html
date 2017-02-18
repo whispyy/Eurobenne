@@ -1,18 +1,21 @@
 
-<h2 class="orange-text text-darken-4 center">Nos Bennes</h2>
+<h2 class="orange-text text-lighten-1 center">Nos Bennes</h2>
 <div class="container">
 	<!-- tendances-->
-	<div class="row">
-	  <div class="col s12 m4" ng-repeat="b in vm.bennes3">
-		<div class="card sticky-action">
-		  <img src="{{b.img}}" width="100%">
-		  <div class="card-action">
-		  	<h5>{{b.nom}}</h5>
-		  </div>
+	<div class="card-panel orange lighten-1">
+		<h4 class="white-text">En ce moment ! </h4>
+		<div class="row">
+		  <div class="col s12 m4" ng-repeat="b in vm.bennes3">
+			<div class="card sticky-action">
+			  <img src="{{b.img}}" width="100%">
+			  <div class="card-action">
+			  	<h5>{{b.nom}}</h5>
+			  </div>
 
-		  <div class="card-reveal">...</div>
+			  <div class="card-reveal">...</div>
+			</div>
+		  </div>
 		</div>
-	  </div>
 	</div>
 
 	<!-- toutes les bennes -->
