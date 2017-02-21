@@ -1,0 +1,14 @@
+@font-face {
+	font-family: "eurobenne";
+	src: url('Stop-SC-D-OT_42559.ttf');
+}
+.eurofonts{
+	font-family: "eurobenne";
+}
+
+/* solve the sidenav overlay's problem : 
+	the problem was due to the fixed nav bar, 
+	just pull out side-nav content outside. */
+/* #sidenav-overlay {
+	z-index: 1;
+}*/
