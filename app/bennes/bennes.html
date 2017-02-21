@@ -1,37 +1,37 @@
+<ul class="tabs indigo lighten-1 tabs-transparent">
+	<li class="tab"><a href="" ng-click="vm.search=''">Toutes</a></li>
+	<li class="tab" ng-repeat="categorie in vm.categories">
+		<a href="" ng-click="vm.search=categorie">{{categorie}}</a>
+	</li>
+</ul>
 
-<h2 class="orange-text text-lighten-1 center">Nos Bennes</h2>
+
 <div class="container">
-	<!-- tendances-->
-	<div class="card-panel orange lighten-1">
-		<h4 class="white-text">En ce moment ! </h4>
-		<div class="row">
-		  <div class="col s12 m4" ng-repeat="b in vm.bennes3">
-			<div class="card sticky-action">
-			  <img src="{{b.img}}" width="100%">
-			  <div class="card-action">
-			  	<p class="flow-text">{{b.nom}}</p>
-			  </div>
-
-			  <div class="card-reveal">...</div>
-			</div>
-		  </div>
+	<!-- search bar -->
+	<div class="row center">
+	<form class="search-wrapper card">
+		<div class="input-field">
+			<input id="search" type="search" ng-model="vm.search" placeholder="Rechercher une benne">
+			<label class="label-icon" for="search"><i class="fa fa-search"></i></label>
 		</div>
+	</form>
 	</div>
-
 	<!-- toutes les bennes -->
 	<div class="row">
       <table class="striped">
       	<thead>
       		<tr>
-      		  <td>Nom</td>
-      		  <td>Image</td>
-      		  <!-- <td>Plus d'informations</td> -->
+      		  <td class="center">Aperçu</td>
+      		  <td class="hide-on-small-and-down">Catégorie</td>
+      		  <td>Description</td>
+      		  
       	</thead>
         <tbody>
-          <tr ng-repeat="b in vm.bennes">
-            <td>{{b.nom}}</td>
-            <td><img src="{{b.img}}" height="60px"></td>
-            <!-- <td></td> -->
+          <tr ng-repeat="b in vm.bennes | filter:vm.search">
+          	<td class="center"><img src="{{b.img}}" height="80px"></td>
+          	<td class="hide-on-small-and-down">{{b.type}}</td>
+            <td>{{b.nom}}</td>            
+            
           </tr>
         </tbody>
       </table>

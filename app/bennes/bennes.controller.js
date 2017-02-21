@@ -10,10 +10,16 @@
     function bennesController(bennes) {
         var vm = this;
         
-        vm.bennes3 = bennes.get3Bennes();
+        vm.search;
+
+        vm.categories = bennes.getCategories();
         vm.bennes = bennes.getBennes();
         console.log(vm.bennes3);
         console.log(vm.bennes);
+
+        vm.selectCat = function(cat){
+            vm.search = cat;
+        }
         
     }
     
