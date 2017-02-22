@@ -10,34 +10,48 @@
             var specif = [];
             var s1 = 
             {
-                nom: 'Benne Ouverte Eurostyle 33m³',
-                desc: '',
-                type: 'Benne Ouverte',
-                img: 'content/img/bennes/Benne_ouverte_eurostyle_33m.jpg'
+                nom: 'Benne à boues type Eurostyl\' 15m³',
+                desc: 'avec porte étanche en hayon et déflecteurs avant et arrière',
+                type: 'Bennes à Boues',
+                img: 'content/img/bennes/EURO15BETANCHE.JPG'
             };
             var s2 =
             {
-                nom: 'Benne Ouverte à Toles Lisses 25m³',
-                desc: '',
-                type: 'Benne Ouverte',
-                img: 'content/img/bennes/Benne_ouverte_toles_lisses_25m.jpg'
+                nom: 'Benne à boues type Eurostyl\' 15m³ + Bâchage',
+                desc: 'avec porte étanche en hayon et Bâchage type "Débâche Vite Latéral "',
+                type: 'Bennes à Boues',
+                img: 'content/img/bennes/EURO15AR.JPG'
             };
             var s3 =
             {
-                nom: 'Benne Ouverte à Toles Nervurées 20m³',
-                desc: '',
-                type: 'Benne Ouverte',
-                img: 'content/img/bennes/Benne_ouverte_toles_nervurees_20m.jpg'
+                nom: 'Benne à boues type Eurostyl\' 15m³ + Bâchage',
+                desc: 'avec porte étanche en hayon et Bâchage type "Débâche Vite Latéral "',
+                type: 'Bennes à Boues',
+                img: 'content/img/bennes/EURO15AV.JPG'
             };
-            specif.push(s1);
-            specif.push(s2);
-            specif.push(s3);
+            specif.push(s1, s2, s3);
 
             return bennes;
         }
 
+        function getCategories(){
+            var categories = [
+                'Bennes à Boues',
+                'Bennes à Copeaux',
+                'Bennes Emboitables',
+                'Bennes à Ferailles',
+                'Berces & Berces Porte-Grue',
+                'Cadres Files Rabattables',
+                'Bennes Spéciales',
+                'Bennes Spéciales TP',
+                'Multibennes'
+            ];
+            return categories
+        }
+
         var Services = {
-            getSpecif: getSpecif
+            getSpecif: getSpecif,
+            getCategories: getCategories
         }
         return Services;
     }
