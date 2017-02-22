@@ -207,7 +207,73 @@
                 type: 'Plateaux',
                 img: 'content/img/bennes/FUTS.GIF'   
             }
-            bennes.push(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24);
+            var b25 = 
+            {
+                nom: 'Plateau Porte Matériel',
+                desc: '',
+                type: 'Plateaux',
+                img: 'content/img/bennes/PlatPM.JPG'   
+            }
+            var b26 = 
+            {
+                nom: 'Plateau à ridelles fixes pour 3T5',
+                desc: 'avec rehausses grillagées pour petit camion 3T5',
+                type: 'Plateaux',
+                img: 'content/img/bennes/PRFRG.GIF'   
+            }
+            var b27 = 
+            {
+                nom: 'Plateau pour 3T5',
+                desc: 'pour petit camion 3T5',
+                type: 'Plateaux',
+                img: 'content/img/bennes/PN.GIF'   
+            }
+            var b28 = 
+            {
+                nom: 'Caisson Compaction type CS 26 m³',
+                desc: '',
+                type: 'Caissons Compactions',
+                img: 'content/img/bennes/CS_26_30.GIF'   
+            }
+            var b29 = 
+            {
+                nom: 'Caisson Compaction type CS 30 m³',
+                desc: '',
+                type: 'Caissons Compactions',
+                img: 'content/img/bennes/CS30TN.GIF'   
+            }
+            var b30 = 
+            {
+                nom: 'Caisson Compaction type Eurostyl\' 25 m³',
+                desc: '',
+                type: 'Caissons Compactions',
+                img: 'content/img/bennes/EC25.GIF'   
+            }
+            var b31 = 
+            {
+                nom: 'Caisson Compaction type Eurostyl\' 30 m³',
+                desc: '',
+                type: 'Caissons Compactions',
+                img: 'content/img/bennes/COMPEURO30.JPG'   
+            }
+            var b32 = 
+            {
+                nom: 'Caisson Compaction type Eurostyl\' 35 m³',
+                desc: '',
+                type: 'Caissons Compactions',
+                img: 'content/img/bennes/EC35.jpg'   
+            }
+            var b33 = 
+            {
+                nom: 'Caisson Compaction Spécial Transfert Eurostyl\' 30 m³ ',
+                desc: '',
+                type: 'Caissons Compactions',
+                img: 'content/img/bennes/COMP30.JPG'   
+            }
+            bennes.push(b1, b2, b3, b4, b5, b6, b7, b8, b9, 
+                b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, 
+                b20, b21, b22, b23, b24, b25, b26, b27, b28, b29,
+                b30, b31, b32, b33);
 
             return bennes;
         }
