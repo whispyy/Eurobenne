@@ -8,77 +8,206 @@
     function bennes(){
 
         function get3Bennes(){
-            var bennes = [];
-            var b1 = 
+            var troisbennes = [];
+            var tb1 = 
             {
                 nom: 'Benne Ouverte Eurostyle 33m³',
                 desc: '',
                 type: 'Bennes Ouvertes',
                 img: 'content/img/bennes/Benne_ouverte_eurostyle_33m.jpg'
             };
-            var b2 =
+            var tb2 =
             {
                 nom: 'Benne Ouverte à Toles Lisses 25m³',
                 desc: '',
                 type: 'Bennes Ouvertes',
                 img: 'content/img/bennes/Benne_ouverte_toles_lisses_25m.jpg'
             };
-            var b3 =
+            var tb3 =
             {
                 nom: 'Benne Ouverte à Toles Nervurées 20m³',
                 desc: '',
                 type: 'Bennes Ouvertes',
                 img: 'content/img/bennes/Benne_ouverte_toles_nervurees_20m.jpg'
             };
-            bennes.push(b1);
-            bennes.push(b2);
-            bennes.push(b3);
+            troisbennes.push(tb1);
+            troisbennes.push(tb2);
+            troisbennes.push(tb3);
 
-            return bennes;
+            return troisbennes;
         }
 
         function getBennes(){
             var bennes = [];
             var b1 = 
             {
-                nom: 'Benne Ouverte Eurostyle 33m³',
+                nom: 'Benne Ouverte Eurostyle 33 m³',
                 desc: '',
                 type: 'Bennes Ouvertes',
                 img: 'content/img/bennes/Benne_ouverte_eurostyle_33m.jpg'
             };
             var b2 =
             {
-                nom: 'Benne Ouverte à Toles Lisses 25m³',
+                nom: 'Benne Ouverte à Toles Lisses 25 m³',
                 desc: '',
                 type: 'Bennes Ouvertes',
                 img: 'content/img/bennes/Benne_ouverte_toles_lisses_25m.jpg'
             };
             var b3 =
             {
-                nom: 'Benne Ouverte à Toles Nervurées 20m³',
+                nom: 'Benne Ouverte à Toles Nervurées 20 m³',
                 desc: '',
                 type: 'Bennes Ouvertes',
                 img: 'content/img/bennes/Benne_ouverte_toles_nervurees_20m.jpg'
             };
             var b4 =
             {
-                nom: 'Benne fermée type OM 10m³',
+                nom: 'Benne fermée type OM 10 m³',
                 desc: '',
                 type: 'Bennes Fermées',
                 img: 'content/img/bennes/OM1.JPG'   
             }
             var b5 =
             {
-                nom: 'Container type EURO 5m³',
+                nom: 'Container type EURO 5 m³',
                 desc: '',
                 type: 'Bennes Fermées',
                 img: 'content/img/bennes/CEURO.jpg'   
             }
-            bennes.push(b1);
-            bennes.push(b2);
-            bennes.push(b3);
-            bennes.push(b4);
-            bennes.push(b5);
+            var b6 = 
+            {
+                nom: 'Benne ouverte type TP 7 m³',
+                desc: '',
+                type: 'Bennes Ouvertes',
+                img: 'content/img/bennes/TP7.JPG'   
+            }
+            var b7 = 
+            {
+                nom: 'Benne ouverte type TP 7 m³',
+                desc: '',
+                type: 'Bennes Ouvertes',
+                img: 'content/img/bennes/TNR15R.GIF'   
+            }
+            var b8 = 
+            {
+                nom: 'Benne ouverte type TNR 20 m³',
+                desc: '',
+                type: 'Bennes Ouvertes',
+                img: 'content/img/bennes/TNR20.GIF'   
+            }
+            var b9 = 
+            {
+                nom: 'Benne ouverte type Eurostyl\' 10 m³',
+                desc: '',
+                type: 'Bennes Ouvertes',
+                img: 'content/img/bennes/EURO10AV.JPG'   
+            }
+            var b10 = 
+            {
+                nom: 'Benne ouverte type TNR 20 m³',
+                desc: '',
+                type: 'Bennes Ouvertes',
+                img: 'content/img/bennes/TNR20.GIF'   
+            }
+            var b11 = 
+            {
+                nom: 'Benne ouverte type Eurostyl\' 30 m³',
+                desc: '',
+                type: 'Bennes Ouvertes',
+                img: 'content/img/bennes/EURO30VueAvant.JPG'   
+            }
+            var b12 = 
+            {
+                nom: 'Benne ouverte type TNR 35 m³',
+                desc: '',
+                type: 'Bennes Ouvertes',
+                img: 'content/img/bennes/TNR35.JPG'   
+            }
+            var b13 = 
+            {
+                nom: 'Container type EURO 4 m³ - Grande Ouverture ',
+                desc: '',
+                type: 'Bennes Fermées',
+                img: 'content/img/bennes/EURO4.JPG'   
+            }
+            var b14 = 
+            {
+                nom: 'Benne fermée type OM 15 m³',
+                desc: 'Couvercles en polyéthylène',
+                type: 'Bennes Fermées',
+                img: 'content/img/bennes/OM15.JPG'   
+            }
+            var b15 = 
+            {
+                nom: 'Benne fermée type OM 20 m³',
+                desc: 'Couvercles en polyéthylène',
+                type: 'Bennes Fermées',
+                img: 'content/img/bennes/OM20.JPG'   
+            }
+            var b16 = 
+            {
+                nom: 'Benne Fermée Type TNR 15 m³',
+                desc: 'Avec toit Coulissant arrondi en 2 parties ',
+                type: 'Bennes Fermées',
+                img: 'content/img/bennes/TNR15TC.JPG'   
+            }
+            var b17 = 
+            {
+                nom: 'Benne Fermée Type TNR 20 m³',
+                desc: 'Avec toit Coulissant arrondi en 2 parties ',
+                type: 'Bennes Fermées',
+                img: 'content/img/bennes/TNR20TC.JPG'   
+            }
+            var b18 = 
+            {
+                nom: 'Benne Fermée Type TNR 30 m³',
+                desc: 'Avec toit Coulissant arrondi en 2 parties ',
+                type: 'Bennes Fermées',
+                img: 'content/img/bennes/TNR30TC.JPG'   
+            }
+            var b19 = 
+            {
+                nom: 'Benne Fermée Type Eurostyl\' 15 m³',
+                desc: 'Avec toit Coulissant arrondi en 2 parties ',
+                type: 'Bennes Fermées',
+                img: 'content/img/bennes/EURO15TC.JPG'   
+            }
+            var b20 = 
+            {
+                nom: 'Benne Fermée Type Eurostyl\' 30 m³',
+                desc: 'Avec toit Coulissant arrondi en 2 parties ',
+                type: 'Bennes Fermées',
+                img: 'content/img/bennes/EURO30TCA.JPG'   
+            }
+            var b21 = 
+            {
+                nom: 'Benne Fermée Type Eurostyl\' 20 m³',
+                desc: 'Avec toit Coulissant arrondi en 2 parties ',
+                type: 'Bennes Fermées',
+                img: 'content/img/bennes/TNR20TCAV.JPG'   
+            }
+            var b22 = 
+            {
+                nom: 'Plateau Porte Palettes',
+                desc: '',
+                type: 'Plateaux',
+                img: 'content/img/bennes/Plateau.JPG'   
+            }
+            var b23 = 
+            {
+                nom: 'Plateau à ridelles rabattables',
+                desc: '',
+                type: 'Plateaux',
+                img: 'content/img/bennes/PlatRidRab.JPG'   
+            }
+            var b24 = 
+            {
+                nom: 'Plateau Porte-fûts',
+                desc: '',
+                type: 'Plateaux',
+                img: 'content/img/bennes/FUTS.GIF'   
+            }
+            bennes.push(b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24);
 
             return bennes;
         }
