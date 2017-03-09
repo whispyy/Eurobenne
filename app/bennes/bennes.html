@@ -17,13 +17,12 @@
 		</form>
 	</div>
 	<!-- toutes les bennes -->
-	<div ng-repeat="b in vm.bennes | filter:vm.search">
-		<div ng-if="$index % 3 == 0" class="row">
-		  <div class="col s12 m4">
+	<div ng-repeat="bs in vm.bennes | listToMatrix:3">
+		<div class="row">
+		    <div class="col s12 m4" ng-repeat="b in bs | filter:vm.search">
 				<div class="card">
 					<div class="card-image" height="180px">
 						<img src="{{b.img}}">
-
 					</div>
 					<div class="card-content">
 						<span class="card-title">{{b.nom}}</span>
@@ -34,6 +33,6 @@
 					</div> -->
 				</div>
 			</div>
-	  </div>
+	    </div>
 	</div>
 </div>

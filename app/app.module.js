@@ -5,6 +5,7 @@
     .module('fjs', [
         'fjs.core',
         'fjs.services',
+        'fjs.filters',
         'fjs.home',
         'fjs.bennes',
         'fjs.contact',
