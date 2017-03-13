@@ -41,7 +41,7 @@
             var bennes = [];
             var b1 = 
             {
-                nom: 'Benne Ouverte Eurostyle',
+                nom: 'Benne ouverte Eurostyle',
                 taille: '33 m³',
                 desc: '',
                 type: 'Bennes Ouvertes',
@@ -49,7 +49,7 @@
             };
             var b2 =
             {
-                nom: 'Benne Ouverte à Toles Lisses',
+                nom: 'Benne ouverte à Toles Lisses',
                 taille: '25 m³',
                 desc: '',
                 type: 'Bennes Ouvertes',
@@ -57,7 +57,7 @@
             };
             var b3 =
             {
-                nom: 'Benne Ouverte à Toles Nervurées',
+                nom: 'Benne ouverte à Toles Nervurées',
                 taille: '20 m³',
                 desc: '',
                 type: 'Bennes Ouvertes',
