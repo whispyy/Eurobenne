@@ -22,7 +22,7 @@
 		    <div class="col s12 m4" ng-repeat="b in bs | filter:vm.search">
 				<div class="card">
 					<div class="card-image" height="180px">
-						<img src="{{b.img}}">
+						<img ng-src="{{b.img}}">
 					</div>
 					<div class="card-content">
 						<span class="card-title">{{b.nom}}</span>
