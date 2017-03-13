@@ -41,15 +41,18 @@
 <!-- Modal Structure -->
 <div id="info" class="modal modal-fixed-footer">
 	<div class="modal-content center">
+	  
 	  <h4>{{vm.benneActive.nom}}</h4>
-	  <ul>
-	  	<li><img ng-src="{{vm.benneActive.img}}"></li>
+	  <div class="row">
+	  <ul cass="col s12">
+	  	<li><img class="responsive-img" ng-src="{{vm.benneActive.img}}"></li>
 	  	<li>Catégorie : {{vm.benneActive.type}}</li>
 	  	<li ng-if="vm.benneActive.taille">Taille : {{vm.benneActive.taille}}</li>
 	  	<li ng-if="vm.benneActive.desc != ''">Description : {{vm.benneActive.desc}}</li>
 	  </ul>
+	  </div>
 	</div>
 	<div class="modal-footer">
-	  <a href="#!/bennes" class="modal-action red white-text modal-close waves-effect waves-green btn-flat ">Fermer</a>
+	  <a href="#!/bennes" class="modal-action red white-text modal-close waves-effect waves-grey btn-flat ">Fermer</a>
 	</div>
 </div>
