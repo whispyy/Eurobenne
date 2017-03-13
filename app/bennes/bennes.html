@@ -1,4 +1,4 @@
-<ul class="tabs indigo lighten-1 tabs-transparent">
+<ul class="tabs blue darken-3 tabs-transparent">
 	<li class="tab"><a href="" ng-click="vm.search=''">Toutes</a></li>
 	<li class="tab" ng-repeat="categorie in vm.categories">
 		<a href="" ng-click="vm.search=categorie">{{categorie}}</a>
@@ -21,8 +21,8 @@
 		<div class="row">
 		    <div class="col s12 m4" ng-repeat="b in bs | filter:vm.search">
 				<div class="card">
-					<div class="card-image" height="180px">
-						<img ng-src="{{b.img}}">
+					<div class="card-image">
+						<img ng-src="{{b.img}}" height="160px">
 					</div>
 					<div class="card-content">
 						<span class="card-title">{{b.nom}}</span>
