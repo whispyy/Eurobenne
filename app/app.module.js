@@ -9,6 +9,7 @@
         'fjs.home',
         'fjs.bennes',
         'fjs.contact',
+        'fjs.accessoires',
         'fjs.components'
     ]);
     

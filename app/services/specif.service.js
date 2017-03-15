@@ -31,7 +31,7 @@
             };
             specif.push(s1, s2, s3);
 
-            return bennes;
+            return specif;
         }
 
         function getCategories(){

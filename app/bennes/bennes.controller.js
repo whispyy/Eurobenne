@@ -14,8 +14,6 @@
 
         vm.categories = bennes.getCategories();
         vm.bennes = bennes.getBennes();
-        console.log(vm.bennes3);
-        console.log(vm.bennes);
 
         vm.selectCat = function(cat){
             vm.search = cat;
