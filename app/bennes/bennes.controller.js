@@ -5,12 +5,12 @@
     .module('fjs.bennes')
     .controller('BennesController', bennesController);
     
-    bennesController.$inject = ['bennes'];
+    bennesController.$inject = ['bennes', '$rootScope'];
 
-    function bennesController(bennes) {
+    function bennesController(bennes, $rootScope) {
         var vm = this;
         
-        vm.search;
+        vm.search = $rootScope.search;
 
         vm.categories = bennes.getCategories();
         vm.bennes = bennes.getBennes();

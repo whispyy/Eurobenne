@@ -7,7 +7,6 @@
     
     function contactController($filter) {
         var vm = this;
-
         //initialisations
         $('.modal').modal();
         emailjs.init("user_bohF04q3pAPOijmAfMD5u");

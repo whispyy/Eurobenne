@@ -6,7 +6,7 @@
     <li class="collection-item" ng-repeat="categorie in vm.categories">
       <div class="title" ng-click="vm.goCat(categorie)">{{categorie}}</div>
     </li>
-    <li class="collection-item"><a href="#!/bennes">Tous nos produits...</a></li>
+    <li class="collection-item"><a href="#!/bennes" ng-click="vm.resetSearch()">Tous nos produits...</a></li>
   </ul>
 </div>
         
