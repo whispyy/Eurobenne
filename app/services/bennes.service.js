@@ -66,25 +66,7 @@
                 type2: 'Toles Nervurées',
                 img: 'content/img/bennes/Benne_ouverte_toles_nervurees_20m.jpg'
             };
-            var b4 =
-            {
-                nom: 'Benne fermée type OM',
-                taille: '10 m³',
-                desc: '',
-                type: 'Bennes OM',
-                type2: 'Ordures Ménagères',
-                img: 'content/img/bennes/OM1.JPG'   
-            }
-            var b5 =
-            {
-                nom: 'Container type EURO',
-                taille: '5 m³',
-                desc: '',
-                type: 'Bennes OM',
-                type2: 'Ordures Ménagères',
-                img: 'content/img/bennes/CEURO.jpg'   
-            }
-            var b6 = 
+            var b4 = 
             {
                 nom: 'Benne ouverte type TP',
                 taille: '7 m³',
@@ -93,7 +75,7 @@
                 type2: 'Toles Nervurées',
                 img: 'content/img/bennes/TP7.JPG'   
             }
-            var b7 = 
+            var b5 = 
             {
                 nom: 'Benne ouverte type TNR',
                 taille: '15 m³',
@@ -101,6 +83,23 @@
                 type: 'Bennes Ouvertes',
                 type2: 'Toles Nervurées',
                 img: 'content/img/bennes/TNR15R.GIF'   
+            }
+            var b6 = 
+            {
+                nom: 'Benne ouverte type TNR',
+                taille: '20 m³',
+                desc: '',
+                type: 'Bennes Ouvertes',
+                type2: 'Toles Nervurées',
+                img: 'content/img/bennes/TNR20.GIF'   
+            }
+            var b7 = 
+            {
+                nom: 'Benne ouverte type Eurostyl\'',
+                taille: '10 m³',
+                desc: '',
+                type: 'Bennes Ouvertes',
+                img: 'content/img/bennes/EURO10AV.JPG'   
             }
             var b8 = 
             {
@@ -114,29 +113,12 @@
             var b9 = 
             {
                 nom: 'Benne ouverte type Eurostyl\'',
-                taille: '10 m³',
-                desc: '',
-                type: 'Bennes Ouvertes',
-                img: 'content/img/bennes/EURO10AV.JPG'   
-            }
-            var b10 = 
-            {
-                nom: 'Benne ouverte type TNR',
-                taille: '20 m³',
-                desc: '',
-                type: 'Bennes Ouvertes',
-                type2: 'Toles Nervurées',
-                img: 'content/img/bennes/TNR20.GIF'   
-            }
-            var b11 = 
-            {
-                nom: 'Benne ouverte type Eurostyl\'',
                 taille: '30 m³',
                 desc: '',
                 type: 'Bennes Ouvertes',
                 img: 'content/img/bennes/EURO30VueAvant.JPG'   
             }
-            var b12 = 
+            var b10 = 
             {
                 nom: 'Benne ouverte type TNR',
                 taille: '35 m³',
@@ -144,6 +126,24 @@
                 type: 'Bennes Ouvertes',
                 type2: 'Toles Nervurées',
                 img: 'content/img/bennes/TNR35.JPG'   
+            }
+            var b11 =
+            {
+                nom: 'Benne fermée type OM',
+                taille: '10 m³',
+                desc: '',
+                type: 'Bennes OM',
+                type2: 'Ordures Ménagères',
+                img: 'content/img/bennes/OM1.JPG'   
+            }
+            var b12 =
+            {
+                nom: 'Container type EURO',
+                taille: '5 m³',
+                desc: '',
+                type: 'Bennes OM',
+                type2: 'Ordures Ménagères',
+                img: 'content/img/bennes/CEURO.jpg'   
             }
             var b13 = 
             {
@@ -166,7 +166,7 @@
             var b15 = 
             {
                 nom: 'Benne fermée type OM',
-                taille: 'OM 20 m³',
+                taille: '20 m³',
                 desc: 'Couvercles en polyéthylène',
                 type: 'Bennes OM',
                 type2: 'Ordures Ménagères',

@@ -19,10 +19,15 @@
       };
   }
   
-  sideshortcutDirectiveController.$inject = ['bennes'];
-  function sideshortcutDirectiveController(bennes) {
+  sideshortcutDirectiveController.$inject = ['bennes', '$location'];
+  function sideshortcutDirectiveController(bennes, $location) {
     var vm = this;
-    vm.bennes3 = bennes.get3Bennes();
+    vm.categories = bennes.getCategories();
+
+    vm.goCat = function(cat){
+        vm.search = cat;
+        $location.path('/bennes');
+    }
   }
     
 })();
