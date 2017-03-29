@@ -7,7 +7,7 @@
     
     function footerDefinition() {
         return {
-            restrict: 'EA',
+            restrict: 'EAC',
             templateUrl: 'app/components/footer/footer.html',
             scope: {
                 text: '=',

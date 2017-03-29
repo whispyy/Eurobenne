@@ -7,7 +7,7 @@
     
     function topbarDefinition() {
         return {
-            restrict: 'EA',
+            restrict: 'EAC',
             templateUrl: 'app/components/topbar/topbar.html',
             scope: {
                 text: '=',
