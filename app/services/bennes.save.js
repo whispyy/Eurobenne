@@ -1,48 +1,9 @@
-(function(){
-    'use strict';
-    
-    angular
-    .module('fjs.services')
-    .service('bennes', bennes);
-
-    function bennes(){
-
-        function get3Bennes(){
-            var troisbennes = [];
-            var tb1 = 
-            {
-                nom: 'Benne Ouverte Eurostyle 33m³',
-                desc: '',
-                type: 'Bennes Ouvertes',
-                img: 'content/img/bennes/Benne_ouverte_eurostyle_33m.jpg'
-            };
-            var tb2 =
-            {
-                nom: 'Benne Ouverte à Toles Lisses 25m³',
-                desc: '',
-                type: 'Bennes Ouvertes',
-                img: 'content/img/bennes/Benne_ouverte_toles_lisses_25m.jpg'
-            };
-            var tb3 =
-            {
-                nom: 'Benne Ouverte à Toles Nervurées 20m³',
-                desc: '',
-                type: 'Bennes Ouvertes',
-                img: 'content/img/bennes/Benne_ouverte_toles_nervurees_20m.jpg'
-            };
-            troisbennes.push(tb1);
-            troisbennes.push(tb2);
-            troisbennes.push(tb3);
-
-            return troisbennes;
-        }
-
-        function getBennes(){
+function getBennes(){
             var bennes = [];
             var b1 = 
             {
                 nom: 'Benne ouverte Eurostyle',
-                taille: 'de 10 à 45 m³',
+                taille: '33 m³',
                 desc: '',
                 type: 'Bennes Ouvertes',
                 type2: '',
@@ -51,7 +12,7 @@
             var b2 =
             {
                 nom: 'Benne ouverte à Toles Lisses',
-                taille: 'de 10 à 45 m³',
+                taille: '25 m³',
                 desc: '',
                 type: 'Bennes Ouvertes',
                 type2: 'Toles Lisses',
@@ -60,7 +21,7 @@
             var b3 =
             {
                 nom: 'Benne ouverte à Toles Nervurées',
-                taille: 'de 10 à 45 m³',
+                taille: '20 m³',
                 desc: '',
                 type: 'Bennes Ouvertes',
                 type2: 'Toles Nervurées',
@@ -69,7 +30,7 @@
             var b4 = 
             {
                 nom: 'Benne ouverte type TP',
-                taille: 'de 5 à 15 m³',
+                taille: '7 m³',
                 desc: '',
                 type: 'Bennes Ouvertes',
                 type2: 'Toles Nervurées',
@@ -78,7 +39,7 @@
             var b5 = 
             {
                 nom: 'Benne ouverte type TNR',
-                taille: 'de 10 à 45 m³',
+                taille: '15 m³',
                 desc: '',
                 type: 'Bennes Ouvertes',
                 type2: 'Toles Nervurées',
@@ -87,7 +48,7 @@
             var b6 = 
             {
                 nom: 'Benne ouverte type TNR',
-                taille: 'de 10 à 45 m³',
+                taille: '20 m³',
                 desc: '',
                 type: 'Bennes Ouvertes',
                 type2: 'Toles Nervurées',
@@ -96,7 +57,7 @@
             var b7 = 
             {
                 nom: 'Benne ouverte type Eurostyl\'',
-                taille: 'de 10 à 45 m³',
+                taille: '10 m³',
                 desc: '',
                 type: 'Bennes Ouvertes',
                 img: 'content/img/bennes/EURO10AV.JPG'   
@@ -104,7 +65,7 @@
             var b8 = 
             {
                 nom: 'Benne ouverte type TNR',
-                taille: 'de 10 à 45 m³',
+                taille: '20 m³',
                 desc: '',
                 type: 'Bennes Ouvertes',
                 type2: 'Toles Nervurées',
@@ -113,7 +74,7 @@
             var b9 = 
             {
                 nom: 'Benne ouverte type Eurostyl\'',
-                taille: 'de 10 à 45 m³',
+                taille: '30 m³',
                 desc: '',
                 type: 'Bennes Ouvertes',
                 img: 'content/img/bennes/EURO30VueAvant.JPG'   
@@ -121,7 +82,7 @@
             var b10 = 
             {
                 nom: 'Benne ouverte type TNR',
-                taille: 'de 10 à 45 m³',
+                taille: '35 m³',
                 desc: '',
                 type: 'Bennes Ouvertes',
                 type2: 'Toles Nervurées',
@@ -130,7 +91,7 @@
             var b11 =
             {
                 nom: 'Benne fermée type OM',
-                taille: 'de 8 à 20 m³',
+                taille: '10 m³',
                 desc: '',
                 type: 'Bennes OM',
                 type2: 'Ordures Ménagères',
@@ -139,7 +100,7 @@
             var b12 =
             {
                 nom: 'Container type EURO',
-                taille: 'de 2 à 6 m³',
+                taille: '5 m³',
                 desc: '',
                 type: 'Bennes OM',
                 type2: 'Ordures Ménagères',
@@ -148,7 +109,7 @@
             var b13 = 
             {
                 nom: 'Container type EURO - Grande Ouverture',
-                taille: 'de 2 à 6 m³',
+                taille: '4 m³',
                 desc: '',
                 type: 'Bennes OM',
                 type2: 'Ordures Ménagères',
@@ -157,7 +118,7 @@
             var b14 = 
             {
                 nom: 'Benne fermée type OM',
-                taille: 'de 8 à 20 m³',
+                taille: '15 m³',
                 desc: 'Couvercles en polyéthylène',
                 type: 'Bennes OM',
                 type2: 'Ordures Ménagères',
@@ -166,7 +127,7 @@
             var b15 = 
             {
                 nom: 'Benne fermée type OM',
-                taille: 'de 8 à 20 m³',
+                taille: '20 m³',
                 desc: 'Couvercles en polyéthylène',
                 type: 'Bennes OM',
                 type2: 'Ordures Ménagères',
@@ -175,7 +136,7 @@
             var b16 = 
             {
                 nom: 'Benne Fermée Type TNR',
-                taille: 'de 10 à 35 m³',
+                taille: '15 m³',
                 desc: 'Avec toit Coulissant arrondi en 2 parties ',
                 type: 'Bennes Fermées',
                 type2: 'Toles Nervurées',
@@ -184,7 +145,7 @@
             var b17 = 
             {
                 nom: 'Benne Fermée Type TNR',
-                taille: 'de 10 à 35 m³',
+                taille: '20 m³',
                 desc: 'Avec toit Coulissant arrondi en 2 parties ',
                 type: 'Bennes Fermées',
                 type2: 'Toles Nervurées',
@@ -193,7 +154,7 @@
             var b18 = 
             {
                 nom: 'Benne Fermée Type TNR',
-                taille: 'de 10 à 35 m³',
+                taille: '30 m³',
                 desc: 'Avec toit Coulissant arrondi en 2 parties ',
                 type: 'Bennes Fermées',
                 type2: 'Toles Nervurées',
@@ -202,7 +163,7 @@
             var b19 = 
             {
                 nom: 'Benne Fermée Type Eurostyl\' ',
-                taille: 'de 10 à 35 m³',
+                taille: '15 m³',
                 desc: 'Avec toit Coulissant arrondi en 2 parties ',
                 type: 'Bennes Fermées',
                 img: 'content/img/bennes/EURO15TC.JPG'   
@@ -210,7 +171,7 @@
             var b20 = 
             {
                 nom: 'Benne Fermée Type Eurostyl\' ',
-                taille: 'de 10 à 35 m³',
+                taille: '30 m³',
                 desc: 'Avec toit Coulissant arrondi en 2 parties ',
                 type: 'Bennes Fermées',
                 img: 'content/img/bennes/EURO30TCA.JPG'   
@@ -218,7 +179,7 @@
             var b21 = 
             {
                 nom: 'Benne Fermée Type Eurostyl\' ',
-                taille: 'de 10 à 35 m³',
+                taille: '20 m³',
                 desc: 'Avec toit Coulissant arrondi en 2 parties ',
                 type: 'Bennes Fermées',
                 type2: 'Toles Nervurées',
@@ -269,7 +230,7 @@
             var b28 = 
             {
                 nom: 'Caisson Compaction type CS',
-                taille: 'de 15 à 35 m³',
+                taille: '26 m³',
                 desc: '',
                 type: 'Caissons Compactions',
                 img: 'content/img/bennes/CS_26_30.GIF'   
@@ -277,7 +238,7 @@
             var b29 = 
             {
                 nom: 'Caisson Compaction type CS',
-                taille: 'de 15 à 35 m³',
+                taille: '30 m³',
                 desc: '',
                 type: 'Caissons Compactions',
                 img: 'content/img/bennes/CS30TN.GIF'   
@@ -285,7 +246,7 @@
             var b30 = 
             {
                 nom: 'Caisson Compaction type Eurostyl\' ',
-                taille: 'de 15 à 35 m³',
+                taille: '25 m³',
                 desc: '',
                 type: 'Caissons Compactions',
                 img: 'content/img/bennes/EC25.GIF'   
@@ -293,7 +254,7 @@
             var b31 = 
             {
                 nom: 'Caisson Compaction type Eurostyl\' ',
-                taille: 'de 15 à 35 m³',
+                taille: '30 m³',
                 desc: '',
                 type: 'Caissons Compactions',
                 img: 'content/img/bennes/COMPEURO30.JPG'   
@@ -301,7 +262,7 @@
             var b32 = 
             {
                 nom: 'Caisson Compaction type Eurostyl\' ',
-                taille: 'de 15 à 35 m³',
+                taille: '35 m³',
                 desc: '',
                 type: 'Caissons Compactions',
                 img: 'content/img/bennes/EC35.jpg'   
@@ -309,7 +270,7 @@
             var b33 = 
             {
                 nom: 'Caisson Compaction Spécial Transfert Eurostyl\' ',
-                taille: 'de 15 à 35 m³',
+                taille: '30 m³',
                 desc: '',
                 type: 'Caissons Compactions',
                 img: 'content/img/bennes/COMP30.JPG'   
@@ -317,15 +278,15 @@
             var b34 = 
             {
                 nom: 'Multibenne avec boîtards extérieurs',
-                taille: 'de 3 à 15 m³',
+                taille: '5 m³',
                 desc: '',
                 type: 'Multibennes',
                 img: 'content/img/bennes/MULTI 5.JPG'   
             }
             var b35 = 
             {
-                nom: 'Multibenne Fermée avec boîtards extérieurs',
-                taille: 'de 3 à 15 m³',
+                nom: 'Multibenne avec Fermée boîtards extérieurs',
+                taille: '5 m³',
                 desc: '',
                 type: 'Multibennes',
                 img: 'content/img/bennes/multi5fermee.jpg'   
@@ -333,7 +294,7 @@
             var b36 = 
             {
                 nom: 'Multibenne',
-                taille: 'de 3 à 15 m³',
+                taille: '8 m³',
                 desc: '',
                 type: 'Multibennes',
                 img: 'content/img/bennes/multi8.JPG'   
@@ -341,7 +302,7 @@
             var b37 = 
             {
                 nom: 'Multibenne avec boîtards extérieurs et Anneaux de levage',
-                taille: 'de 3 à 15 m³',
+                taille: '8 m³',
                 desc: '',
                 type: 'Multibennes',
                 img: 'content/img/bennes/multi8levage.jpg'   
@@ -349,7 +310,7 @@
             var b38 = 
             {
                 nom: 'Multibenne à boues',
-                taille: 'de 3 à 15 m³',
+                taille: '15 m³',
                 desc: '',
                 type: 'Multibennes',
                 img: 'content/img/bennes/multi10boues.JPG'   
@@ -357,78 +318,15 @@
             var b39 = 
             {
                 nom: 'Multibenne avec double portillon',
-                taille: 'de 3 à 15 m³',
+                taille: '10 m³',
                 desc: '',
                 type: 'Multibennes',
                 img: 'content/img/bennes/multi15.JPG'   
             }
-            var b40 = 
-            {
-                nom: 'Benne à boues Eurostyl\'',
-                taille: 'de 10 à 45 m³',
-                desc: 'Porte étanche en hayon et Déflecteurs (avant et arrière)',
-                type: 'Bennes Étanches',
-                img: 'content/img/bennes/EURO15BETANCHE.JPG'   
-            }
-            var b41 = 
-            {
-                nom: 'Benne à boues Eurostyl\'',
-                taille: 'de 10 à 45 m³',
-                desc: 'Porte étanche en hayon et Bâchage type "Débâche Vite Latéral"',
-                type: 'Bennes Étanches',
-                img: 'content/img/bennes/EURO15AR.JPG',
-                img2: 'content/img/bennes/EURO15AV.JPG'   
-            }
-            var b42 = 
-            {
-                nom: 'Benne à boues Eurostyl\'',
-                taille: 'de 10 à 45 m³',
-                desc: 'Porte étanche en hayon, Bâchage type "Débâche Vite Latéral" et Vannes sur l\'avant',
-                type: 'Bennes Étanches',
-                img: 'content/img/bennes/20EUROB.JPG'   
-            }
-            var b43 = 
-            {
-                nom: 'Benne à boues Eurostyl\'',
-                taille: 'de 10 à 35 m³',
-                desc: 'Porte étanche en hayon et Toit coulissant arrondi en 2 parties',
-                type: 'Bennes Étanches',
-                img: 'content/img/bennes/20EUROB.JPG'   
-            }
-            var b44 = 
-            {
-                nom: 'Benne étanche type TNR',
-                taille: 'de 10 à 35 m³',
-                desc: 'Porte étanche comportant un seul battant et Toit coulissant arrondi en 2 parties',
-                type: 'Bennes Étanches',
-                img: 'content/img/bennes/20EUROB.JPG'   
-            }
             bennes.push(b1, b2, b3, b4, b5, b6, b7, b8, b9, 
                 b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, 
                 b20, b21, b22, b23, b24, b25, b26, b27, b28, b29,
-                b30, b31, b32, b33, b34, b35, b36, b37, b38, b39,
-                b40, b41, b42, b43, b44);
+                b30, b31, b32, b33, b34, b35, b36, b37, b38, b39);
 
             return bennes;
         }
-
-        function getCategories(){
-            var categories = [
-                'Bennes Ouvertes',
-                'Bennes Fermées',
-                'Bennes Étanches',
-                'Bennes OM',
-                'Plateaux',
-                'Caissons Compactions',
-                'Multibennes'
-            ];
-            return categories
-        }
-        var Services = {
-            get3Bennes: get3Bennes,
-            getBennes: getBennes,
-            getCategories: getCategories
-        }
-        return Services;
-    }
-})();
