@@ -69,8 +69,14 @@
                           </div>
                           <div class="row">
                               <div class="col m12">
-                               <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="button" name="action" ng-click="vm.send()">Envoyer</button></p>
+                               <p class="right-align">
+                                <button class="btn btn-large waves-effect waves-light" type="button" name="action" ng-click="vm.send()">Envoyer</button>
+                               </p>
                               </div>
+                          </div>
+                          <div class="progress" 
+                               data-ng-if="vm.loading">
+                            <div class="indeterminate"></div>
                           </div>
                       </form>
                   </div>
