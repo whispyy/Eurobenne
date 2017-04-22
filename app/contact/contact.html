@@ -69,7 +69,8 @@
                           </div>
                           <div class="row">
                               <div class="col m12">
-                               <p class="right-align">
+                               <p class="right-align"
+                                  data-ng-if="!vm.loading">
                                 <button class="btn btn-large waves-effect waves-light" type="button" name="action" ng-click="vm.send()">Envoyer</button>
                                </p>
                               </div>
@@ -99,6 +100,6 @@
   </div>
   <div class="modal-footer">
     <!-- <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Ok</a> -->
-    <button class="btn modal-action modal-close">Ok</button>
+    <button class="btn modal-action modal-close" ng-click="$parent.vm.foo = false;">Ok</button>
   </div>
 </div>

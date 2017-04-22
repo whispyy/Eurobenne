@@ -23,11 +23,9 @@
         	// parameters: service_id, template_id, template_parameters
 			emailjs.send("yandex","eurobenne",vm.contact)
 			.then(function(response) {
-               vm.loading = false;
 			   console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
 			   $('#modal1').modal('open');
 			}, function(err) {
-               vm.loading = false;
 			   console.log("FAILED. error=", err);
 			});
         	
