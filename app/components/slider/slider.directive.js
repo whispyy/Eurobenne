@@ -27,7 +27,7 @@
         
         setInterval(function() {
             $('.carousel').carousel('next');
-        }, 3000);
+        }, 5000);
 
     }
     
